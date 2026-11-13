@@ -211,7 +211,7 @@
             <div class="flex items-center justify-between border-b border-slate-200 pb-4">
                 <div>
                     <h2 class="text-xl font-extrabold text-slate-900 flex items-center gap-2">
-                        <i data-lucide="shield-check" class="h-6 w-6 text-indigo-600"></i> Panel Manajemen LITERA SKON1
+                        <i data-lucide="shield-check" class="h-6 w-6 text-indigo-600"></i> Panel Manajemen
                     </h2>
                     <p class="text-xs text-slate-500">Kelola inventaris perpustakaan, validasi sirkulasi buku, dan kontrol database anggota.</p>
                 </div>
@@ -359,8 +359,8 @@
                 <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-indigo-50 text-indigo-600">
                     <i data-lucide="user-check" class="h-6 w-6"></i>
                 </div>
-                <h3 class="text-lg font-bold text-slate-900">LITERA SKON1</h3>
-                <p class="text-xs text-slate-500">Silakan gunakan akun Anda untuk masuk</p>
+                <h3 class="text-lg font-bold text-slate-900">Portal Login</h3>
+                <p class="text-xs text-slate-500">Silakan gunakan akun Anda untuk masuk!</p>
             </div>
             <form onsubmit="handleLoginSubmit(event)" class="space-y-3.5">
                 <div>
@@ -509,7 +509,7 @@
                     <i data-lucide="book-open-check" class="text-indigo-400 h-5 w-5"></i>
                     <div>
                         <h3 id="reader-title" class="text-sm font-bold truncate max-w-xs sm:max-w-md">Dokumen E-Book</h3>
-                        <p class="text-[10px] text-slate-400">LITERA SKON1 PDF Viewer & Simulator V2</p>
+                        <p class="text-[10px] text-slate-400">PDF Viewer & Simulator V2</p>
                     </div>
                 </div>
                 <div class="flex items-center gap-2">
@@ -541,7 +541,7 @@
 
             <!-- Proteksi Watermark Footer -->
             <div class="bg-slate-800 border-t border-slate-700 py-2.5 text-center text-white text-[10px] font-semibold tracking-wider uppercase">
-                ⚠️ Dilarang menyebarluaskan, mencetak, atau menyalin isi konten e-book tanpa izin resmi LITERA SKON1.
+                ⚠️ Dilarang menyebarluaskan, mencetak, atau menyalin isi konten e-book tanpa izin resmi.
             </div>
         </div>
     </div>
@@ -1016,7 +1016,7 @@
                 document.getElementById('reader-doc-author').textContent = `Ditulis oleh: ${bk.pengarang} | Diterbitkan oleh: ${bk.penerbit}`;
                 document.getElementById('reader-doc-body').innerHTML = `
                     <p class="font-semibold text-slate-800 text-base mb-2">BAB I - PENDAHULUAN & PROLOG</p>
-                    <p>Buku ini dirancang khusus untuk memperkaya literasi akademik siswa di lingkungan LITERA SKON1. Melalui bab ini, Anda akan diajak menyelami materi ${bk.kategori} secara mendalam dengan metode interaktif.</p>
+                    <p>Buku ini dirancang khusus untuk memperkaya literasi akademik siswa di lingkungan Sekolah. Melalui bab ini, Anda akan diajak menyelami materi ${bk.kategori} secara mendalam dengan metode interaktif.</p>
                     <p class="font-semibold text-slate-800 text-base mt-4 mb-2">RINGKASAN SINOPSIS</p>
                     <p>${bk.deskripsi || "Tidak ada deskripsi tambahan untuk buku cetak ini."}</p>
                     <p class="mt-4 text-slate-600 italic">Selamat Membaca! Dokumen ini dilindungi enkripsi server. Distribusi ilegal tanpa izin akan mendapat sanksi akademik.</p>
