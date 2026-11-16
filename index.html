@@ -86,7 +86,7 @@
 
                     <!-- Tombol Auth -->
                     <button id="auth-buttons" onclick="openLoginModal()" class="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold bg-white text-slate-900 hover:bg-slate-100 transition shadow">
-                        <i data-lucide="log-in" class="h-4 w-4"></i> Masuk Akun
+                        <i data-lucide="log-in" class="h-4 w-4"></i> Portal Login
                     </button>
                     <button id="logout-button" onclick="logout()" class="hidden flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold bg-red-600/20 text-red-300 border border-red-500/20 hover:bg-red-600 hover:text-white transition">
                         <i data-lucide="log-out" class="h-4 w-4"></i> Keluar
@@ -646,7 +646,7 @@
             lucide.createIcons();
             const badge = document.getElementById('preview-badge');
             if (!APP_STATE.is_preview) {
-                badge.textContent = "Koneksi Live";
+                badge.textContent = "Live Connected";
                 badge.className = "flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30";
                 fetchDataFromServer();
             } else {
