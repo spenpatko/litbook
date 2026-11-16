@@ -704,7 +704,7 @@
                     APP_STATE.peminjaman = data.peminjaman || [];
                     APP_STATE.pengguna = data.pengguna || [];
                     renderKatalog();
-                    showToast("Sinkronisasi database sukses.", "success");
+                    showToast("Sinkronisasi...", "success");
                 } else {
                     showToast("Gagal mengambil status: " + data.message, "error");
                 }
